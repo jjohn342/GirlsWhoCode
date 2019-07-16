@@ -7,7 +7,8 @@ word = random.choice(potential_words)
 print = (potential_words)
 # Use to test your code:
 # print(word)
-
+for let in word:
+    
 # Converts the word to lowercase
 word = word.lower()
 letters = ["a, q, z, w, s, x, c, d, e, v, f, r, t, g, b, h, y, n, m, j, u, i, k, l, o, p"]
@@ -15,11 +16,10 @@ letters = ["a, q, z, w, s, x, c, d, e, v, f, r, t, g, b, h, y, n, m, j, u, i, k,
 
 current_word = ["_","_","_","_","_","_","_","_","_"]
 life_word = ["_","_","_","_"]
- # TIP: the number of letters should match the word
+# TIP: the number of letters should match the word
 books_word = ["_","_","_","_","_"]
 
 lion_word = ["_","_","_","_"]
-
 for let in word:
     if let == word:
         current_word[iter] = word
