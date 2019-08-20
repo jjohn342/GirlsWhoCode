@@ -18,13 +18,13 @@ def show_img(pic):
 # Define your save_img() function here.
 #      2 Parameters: The image object to save, the name to save the file as (string)
 #       Returns: nothing.
-def save_img(pic, summer):
-    pic.save(summer)
+def save_img(pic, panda):
+    pic.save(panda)
 
 # Define your obamicon() function here.
 #       Parameters: The image object to apply the filter to.
 #       Returns: A New Image object with the filter applied.
 # def obamicon(pic):
-im = load_img("download.jfif")
+im = load_img("panda.jpg")
 show_img(im)
-save_img(im, "HappySummer.jfif")
+save_img(im, "panda.jpg")
